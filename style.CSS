@@ -1,0 +1,120 @@
+
+    *{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body {
+    
+   background-image: url(202641-light-color-plain-background.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.logo{
+    height: 60px;
+    width: 70px;
+    padding: 2px 10px;
+}
+
+.big-text{
+    font-size:40px;
+    margin: 4px;
+    color:purple;
+    font-style: italic;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+.heading{
+    margin: 70px; ;
+}
+a.btn{
+    margin: 30px;
+    width: 150px ;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#874c62;
+    color:black ;
+    border:solid #874c62 ;
+}
+a.btn:hover{
+    background-color:blueviolet; 
+    border: none;
+    color:#874c62 ;
+    box-shadow:5px 10px ;
+    transition:0.3s ;
+    font-size:20px ;
+}
+
+  
+ .img{
+    margin-right:auto ;
+   
+ }
+ .me{
+    font-style: italic;
+    text-align: center;
+    font-size:xx-large;
+     background-color:blue;
+    }
+ .separate{
+    margin: 10px;
+    padding: 10px;
+    
+ }
+.para{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-style: initial;
+}
+.soft{
+    font-style: italic;
+    color: #874c62;
+    
+
+}
+#skills{
+    display: inline;
+}
+.card-img-top{
+    height: 190px;
+    width: 200px;
+}
+.p card-text{
+    text-align: center;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card{
+    background-color: #a7d2cb;
+}
+.social a{
+    display:grid;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: #a7d2cb;
+    border-radius: 50%;
+    color: rgb(12, 12, 11);
+}
+.social a:hover{
+    outline-color: black;
+}
+.social{
+    display:inline;
+    flex-direction: column;
+    bottom: 45%;
+    right: 3%;
+    position: fixed;
+    transform: translateY(50%);
+}
+#footer{
+    background-color: gray;
+}
+
+
+
