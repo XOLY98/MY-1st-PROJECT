@@ -60,7 +60,7 @@ a.btn:hover{
      background-color:blue;
     }
  .separate{
-    margin: 10px;
+    margin: 6px;
     padding: 10px;
     
  }
@@ -79,8 +79,8 @@ font-style: initial;
     display: inline;
 }
 .card-img-top{
-    height: 190px;
-    width: 200px;
+    height: 180px;
+    width: 130px;
 }
 .p card-text{
     text-align: center;
@@ -89,16 +89,19 @@ font-style: initial;
 
 }
 
-.card{
-    background-color: #a7d2cb;
+.card-group{
+    background-color: #874c62;
+    padding: 5px;
+    border: solid;
+    border-radius: 5px;
 }
 .social a{
     display:grid;
     text-align: center;
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 30px;
     color: #a7d2cb;
-    border-radius: 50%;
+    border-radius: 35%;
     color: rgb(12, 12, 11);
 }
 .social a:hover{
@@ -114,6 +117,44 @@ font-style: initial;
 }
 #footer{
     background-color: gray;
+}
+
+.mywork{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* media query*/
+@media screen and (max-width: 300px) {
+    .container {
+        width: 50vw;
+        flex-flow: column wrap;
+    }
+    .container img {
+        width: 100%;
+    }
+}
+.sk{
+    background-color: #874c62;
+    text-align: center;
+}
+.pro{
+    background-color: blue;
+    text-align: center;
+}
+.EW{
+    background-color: #a7d2cb;
+    text-align: center;
+}
+.testi{
+    background-color: forestgreen;
+    text-align: center;
+}
+.con{
+    background-color: #874c62;
+    text-align: center;
 }
 
 
